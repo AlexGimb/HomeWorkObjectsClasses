@@ -32,7 +32,5 @@ public class Main {
         //смотрим на изменения
         library.findBook("Властелин колец");
 
-
-
     }
 }

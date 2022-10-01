@@ -34,7 +34,7 @@ public class Library {
             Book book = books[i];
             if (book.getTittle().equals(tittleId)) {
                 System.out.println("Книга " + book.getTittle() + " найдена:");
-                books[i].BookSeal();
+                books[i].bookSeal();
                 System.out.println();
                 return;
             }
@@ -46,7 +46,7 @@ public class Library {
     public void printAllBook() {
         for (int i = 0; i < size; i++) {
             Book book = books[i];
-            books[i].BookSeal();
+            books[i].bookSeal();
         }
     }
 

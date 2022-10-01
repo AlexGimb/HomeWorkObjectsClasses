@@ -29,7 +29,7 @@ public class Book {
         return author;
     }
 
-    void BookSeal() {
+    void bookSeal() {
         System.out.println(toString());
     }
 
